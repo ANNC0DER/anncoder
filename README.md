@@ -1,3 +1,191 @@
+  <table>
+    <tr>
+      <!-- th*3 -->
+      <th>Где</th>
+      <th>Что</th>
+      <th>Сколько</th>
+    </tr>
+    <colgroup>
+      <!-- span="1" - то есть для одной ячейки(колонки) применить стилизацию -->
+      <col style="background-color: bisque;" span="2">
+    </colgroup>
+    <tr>
+       <!-- row - строка, col - ячейка -->
+       <!-- rowspan - объединение. -->
+      <th rowspan="3">В корзине</th>
+      <td>Лимоны</td>
+      <td>3 кг</td>
+    </tr>
+    <!-- tr>td*2 один tr с двумя td внутри-->
+    <!-- tr*2>td*2 вда tr с двумя td в каждом-->
+    <tr>
+      <td>Апельсины</td>
+      <td>1 кг</td>
+    </tr>
+    <tr>
+      <td>Мандарины</td>
+      <td>5 кг</td>
+    </tr>
+    <tr>
+      <th rowspan="2">В ящике</th>
+      <td>Картофель</td>
+      <td>2 кг</td>
+    </tr>
+    <tr>
+      <td>Морковь</td>
+      <td>2 кг</td>
+    </tr>
+  </table>
+
+
+
+ 
+ <details>
+      <summary>Here is a question?</summary>
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sint, eaque nulla excepturi atque aperiam placeat nemo dolore incidunt adipisci voluptatem nostrum non facere aut autem in inventore unde quaerat!</div>
+      <ul>
+        <li>List item</li> <!-- Shift+Alt+стрелка вниз несколько раз для размножения строки. -->
+        <li style: `font-family="'Nunito', Arial"` >List item</li>
+        <li style: `font-family="'Nunito', Arial"` >List item</li>
+        <li style="font-color:"red"; >List item</li>
+      </ul>
+   <img src="https://get.pxhere.com/photo/keyboard-technology-learning-table-lamp-multimedia-work-place-desktop-computer-nightlight-personal-computer-computer-monitor-electronic-device-computer-hardware-personal-computer-hardware-display-device-led-backlit-lcd-display-lcd-tv-580242.jpg" width="360" alt="Темное рабочее место программиста">
+      <img src="https://get.pxhere.com/photo/desk-computer-screen-apple-technology-white-desktop-office-television-home-office-product-imac-design-multimedia-workplace-entrepreneur-computer-screen-desktop-computer-personal-computer-computer-monitor-self-employed-electronic-device-computer-hardware-display-device-television-set-led-backlit-lcd-display-lcd-tv-flat-panel-display-1294328.jpg" width="360"  alt="Светлое рабочее место программиста">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, quidem, illum, blanditiis repellendus et natus consequatur quis optio quisquam alias quas necessitatibus dolorum magni distinctio voluptates! Numquam, neque at quam!</p>
+</details>
+__________________
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/403b9148-87ec-4284-8c1d-5b19876b5ed0" width="36" height="36" alt="racket" /></a>
+<img src="https://github.com/user-attachments/assets/403b9148-87ec-4284-8c1d-5b19876b5ed0" width="36" height="36" alt="racket" /></a>
+<img src="https://github.com/user-attachments/assets/403b9148-87ec-4284-8c1d-5b19876b5ed0" width="36" height="36" alt="racket" /></a>  
+
+
+<details>
+      <summary class="text one"> TABLES;</summary>
+      <div>
+        <p>Cоздать базу, не работает, так как там только одну, видимо, можно создать</p>
+      </div>
+  <table>
+    <tr>
+      <!-- th*3 -->
+      <th>Где</th>
+      <th>Что</th>
+      <th>Сколько</th>
+    </tr>
+    <colgroup>
+      <!-- span="1" - то есть для одной ячейки(колонки) применить стилизацию -->
+      <col style="background-color: bisque;" span="1">
+    </colgroup>
+    <tr>
+       <!-- row - строка, col - ячейка -->
+       <!-- rowspan - объединение. -->
+      <th rowspan="3">В корзине</th>
+      <td>Лимоны</td>
+      <td>3 кг</td>
+    </tr>
+    <!-- tr>td*2 один tr с двумя td внутри-->
+    <!-- tr*2>td*2 вда tr с двумя td в каждом-->
+    <tr>
+      <td>Апельсины</td>
+      <td>1 кг</td>
+    </tr>
+    <tr>
+      <td>Мандарины</td>
+      <td>5 кг</td>
+    </tr>
+    <tr>
+      <th rowspan="2">В ящике</th>
+      <td>Картофель</td>
+      <td>2 кг</td>
+    </tr>
+    <tr>
+      <td>Морковь</td>
+      <td>2 кг</td>
+    </tr>
+  </table>
+
+    
+<table border="2">
+    <tr>
+      <th>Имя</th>
+      <th>Фамилия</th>
+    </tr>
+    <tr>
+      <!-- td*2 -->
+      <td>Строка 1, ячейка 1</td>
+      <td>Строка 1, ячейка 2</td>
+    </tr>
+      <tr>
+      <td>Строка 2, ячейка 1</td>
+      <td>Строка 2, ячейка 2</td>
+    </tr>
+      <tr>
+      <td>Строка 2, ячейка 1</td>
+      <td>Строка 2, ячейка 2</td>
+    </tr>
+  </table>
+
+   <table border="1">
+    <tr>
+      <th bgcolor="#808080">Имя</th>
+      <th>Фамилия</th>
+    </tr>
+    <tr>
+      <!-- td*2 -->
+      <td>Строка 1, ячейка 1</td>
+      <td>Строка 1, ячейка 2</td>
+    </tr>
+    <tr>
+      <td>Строка 2, ячейка 1</td>
+      <td>Строка 2, ячейка 2</td>
+    </tr>
+  </table>
+   
+<!--описание коммитов-->
+## Описание коммитов
+| Название | Описание                                                        |
+|----------|-----------------------------------------------------------------|
+| build	   | Сборка проекта или изменения внешних зависимостей               |
+| sec      | Безопасность, уязвимости                                        |
+| ci       | Настройка CI и работа со скриптами                              |
+| docs	   | Обновление документации                                         |
+| feat	   | Добавление нового функционала                                   |
+| fix	   | Исправление ошибок                                              |
+| perf	   | Изменения направленные на улучшение производительности          |
+| refactor | Правки кода без исправления ошибок или добавления новых функций |
+| revert   | Откат на предыдущие коммиты                                     |
+| style	   | Правки по кодстайлу (табы, отступы, точки, запятые и т.д.)      |
+| test	   | Добавление тестов                                               |
+
+  </details>
+  <details>
+      <summary class="text one"> CREATE DATABASE shop;</summary>
+      <div>
+        <p>Cоздать базу, не работает, так как там только одну, видимо, можно создать</p>
+      </div>
+    </details>
+  
+```
+
+<ul>
+  <li>что делает проект;</li>
+  <li>почему проект полезен;</li>
+  <li>как пользователи могут приступить к работе с проектом;</li>
+  <li>где пользователи могут получить помощь по проекту;</li>
+  <li>кто поддерживает проект и вносит вклад в проект.</li>
+</ul>
+<p>Если поместить файл README в скрытый каталог <code>.github</code>, корневой каталог или каталог <code>docs</code>, GitHub распознает и автоматически отобразит файл README для посетителей репозитория.</p>
+<p>Если репозиторий содержит несколько файлов README, файл для отображения выбирается из расположений в следующем порядке: каталог <code>.github</code>, корневой каталог репозитория и, наконец, каталог <code>docs</code>.</p>
+<p>При просмотре README на сайте GitHub все содержимое, превышающее 500 КиБ, будет усечено.</p>
+<p>Если вы добавите файл README в корневой каталог общедоступного репозитория с тем же именем, что и имя пользователя, файл README будет автоматически отображаться на странице профиля. Можно изменить файл README профиля с помощью GitHub Flavored Markdown, чтобы создать персонализированный раздел профиля. Дополнительные сведения см. в разделе <a href="/ru/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme" _originalHref="/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme">Управление файлом сведений о профиле</a>.</p>
+<h2 id=
+```
+
+
+
+
+
 # anncoder
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Anna
 ============================================================================================================================
