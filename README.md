@@ -1,46 +1,190 @@
-  <table>
-    <tr>
-      <!-- th*3 -->
-      <th>Где</th>
-      <th>Что</th>
-      <th>Сколько</th>
-    </tr>
-    <colgroup>
-      <!-- span="1" - то есть для одной ячейки(колонки) применить стилизацию -->
-      <col style="background-color: bisque;" span="2">
-    </colgroup>
-    <tr>
-       <!-- row - строка, col - ячейка -->
-       <!-- rowspan - объединение. -->
-      <th rowspan="3">В корзине</th>
-      <td>Лимоны</td>
-      <td>3 кг</td>
-    </tr>
-    <!-- tr>td*2 один tr с двумя td внутри-->
-    <!-- tr*2>td*2 вда tr с двумя td в каждом-->
-    <tr>
-      <td>Апельсины</td>
-      <td>1 кг</td>
-    </tr>
-    <tr>
-      <td>Мандарины</td>
-      <td>5 кг</td>
-    </tr>
-    <tr>
-      <th rowspan="2">В ящике</th>
-      <td>Картофель</td>
-      <td>2 кг</td>
-    </tr>
-    <tr>
-      <td>Морковь</td>
-      <td>2 кг</td>
-    </tr>
-  </table>
 
 
+<!-- [Mermaid](https://mermaid.js.org) -->
+<details>
+  <summary class="text one"> MVC </summary>
+      ```mermaid
+      graph LR;
+         A --  and --> B -- to --> C
+      ```
+</details>
 
- 
- <details>
+
+[GeoJSON](https://geojson.org/) and [TopoJSON](https://github.com/topojson/topojson) 
+<details>
+  <summary class="text one"> Местоположение </summary>
+
+**Example using GeoJSON:**
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+``` 
+**Example of TopJSON:**
+
+```topojson
+{
+  "type": "Topology",
+  "transform": {
+    "scale": [0.0005000500050005, 0.00010001000100010001],
+    "translate": [100, 0]
+  },
+  "objects": {
+    "example": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties": {"prop0": "value0"},
+          "coordinates": [4000, 5000]
+        },
+        {
+          "type": "LineString",
+          "properties": {"prop0": "value0", "prop1": 0},
+          "arcs": [0]
+        },
+        {
+          "type": "Polygon",
+          "properties": {"prop0": "value0",
+            "prop1": {"this": "that"}
+          },
+          "arcs": [[1]]
+        }
+      ]
+    }
+  },
+  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+}
+```
+</details>
+
+[ASCII STL](#heading-ascii-stl)
+
+<details>
+  <summary class="text one">3D</summary>
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
+</details>
+
+----------------------------
+
+<details>
+  <summary class="text one"> Возможности </summary>
+
+```ruby
+     puts "Hello World"
+ and return
+```
+```markdown
+```geojson
+
+**Ошибочка**
+```
+
+[Contribution guidelines](../docs/CONTRIBUTING.md)
+:star:frontendweb
+@1anna2020
+
+* Fourth item
+* Fourth item
+  
+  * Fourth
+  * Fourth item
+    
+    * Fourth item
+    * Fourth item 
+1. one
+2. two
+   
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada: <br>
+
+~~Перечеркнутый~~  
+*Курсив*  
+**Жирный**  
+[Подчеркнутый](#)  
+ > Text that is a quote
+
+The subscript <sub> text </sub> is here.  
+The superscript <sup> text </sup> is here.  
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]  
+[^1]: This is the first footnote.  
+[^bignote]: Here's one with multiple paragraphs and code.  
+
+</details>
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+___________________________
+
+<details>
       <summary>Here is a question?</summary>
       <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sint, eaque nulla excepturi atque aperiam placeat nemo dolore incidunt adipisci voluptatem nostrum non facere aut autem in inventore unde quaerat!</div>
       <ul>
@@ -164,7 +308,7 @@ __________________
       <div>
         <p>Cоздать базу, не работает, так как там только одну, видимо, можно создать</p>
       </div>
-    </details>
+  </details>
   
 ```
 
