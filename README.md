@@ -1,4 +1,8 @@
 <!--   ### ⌨️ 🐘🔌❗📩🍆👩‍💻👩‍💻💽👸👧👩‍🏫👩‍🏫👩‍💻👩‍✈️👩‍💻📱💾💻📺🖥️☎️🧑‍💻👱⚡       ### <img src=""/>   -->
+![](https://komarev.com/ghpvc/?username=ANNC0DER)
+
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&width=435&lines=Front-end;Soft+skills;Web-development;Adaptive+layout;Back-end;Teamwork;Full-stack" alt="Typing SVG" /></a>
 
 
 ## <div align="center"> <b>So ,</b><img src="https://c.tenor.com/EyASgyJCDfEAAAAd/tenor.gif" align="center" style="width: 170px"/> </div>
